@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Navbar from "../components/navbar";
+import Presentation from "../components/presentation";
 
 const Home: NextPage = () => {
   return (
@@ -15,7 +16,26 @@ const Home: NextPage = () => {
       </Head>
 
       <Navbar />
+      <Presentation />
 
+      <div className="flex justify-center mt-20">
+        <img
+          src="http://cucsa.org.uk/wp-content/uploads/2015/10/Work_In_Progress.png"
+          alt="Working on it!"
+        />
+      </div>
+      <div className="flex justify-center mt-20">
+        <img
+          src="http://cucsa.org.uk/wp-content/uploads/2015/10/Work_In_Progress.png"
+          alt="Working on it!"
+        />
+      </div>
+      <div className="flex justify-center mt-20">
+        <img
+          src="http://cucsa.org.uk/wp-content/uploads/2015/10/Work_In_Progress.png"
+          alt="Working on it!"
+        />
+      </div>
       <div className="flex justify-center mt-20">
         <img
           src="http://cucsa.org.uk/wp-content/uploads/2015/10/Work_In_Progress.png"

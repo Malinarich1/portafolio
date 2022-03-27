@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import { toggle } from "../scripts/test";
+import { toggle } from "../scripts/toggle";
 import styles from "../styles/components/Navbar.module.css";
 
 const Navbar: NextPage = () => {
@@ -14,7 +14,7 @@ const Navbar: NextPage = () => {
   const aOthersProps = aGeneralProps + " home text-gray-500";
 
   return (
-    <nav className="bg-white shadow-2xl border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
+    <nav className="sticky top-0 bg-white shadow-2xl border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <div className="flex items-center">
           <img

@@ -11,7 +11,7 @@ const Presentation: NextPage = () => {
         </h1>
         <img
           className="mt-10 md:mr-10 max-h-80 rounded-full"
-          src="/images/presentation/goku-ssj50.jpg"
+          src="/images/presentation/malinarichssj50.jpg"
           alt="profile photo"
         />
       </div>

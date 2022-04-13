@@ -18,7 +18,7 @@ const Navbar: NextPage = () => {
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <div className="flex items-center">
           <img
-            src="https://akspan12.github.io/backend.png"
+            src="/images/iconWebTab.png"
             className="mr-3 h-6 sm:h-9"
             alt="Code logo"
           />

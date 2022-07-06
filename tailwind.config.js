@@ -5,10 +5,10 @@ module.exports = {
   ],
   theme: {
     colors:{
-      customPrimaryColor: "#1C658C",
-      customSecondaryColor: "#398AB9",
-      customThirdColor:"#D8D2CB",
-      customfourthColor:"#EEEEEE",
+      customPrimaryColor: "#333333",
+      customSecondaryColor: "#FFFFFF",
+      customThirdColor:"#E1F4F3",
+      customFourthColor:"#706C61",
     },
     extend: {},
   },

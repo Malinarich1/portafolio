@@ -1,12 +1,12 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { Navbar } from "../components/navbar";
-import Presentation from "../components/presentation";
+import { Presentation } from "../components/presentation";
 import WorkingOnIt from "../components/workingOnIt";
 
 const Home: NextPage = () => {
   return (
-    <div className="mx-4">
+    <div className="bg-gradient-to-r from-customThirdColor to-customSecondaryColor">
       <Head>
         <title>Nicolas Malinarich</title>
         <meta
@@ -21,7 +21,6 @@ const Home: NextPage = () => {
       <WorkingOnIt />
       <WorkingOnIt />
       <WorkingOnIt />
-      ohla
     </div>
   );
 };

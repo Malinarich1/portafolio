@@ -10,8 +10,8 @@ const Home: NextPage = () => {
       <Head>
         <title>Nicolas Malinarich</title>
         <meta
-          name="Nicolas Malinarich"
-          content="The contend is about me, my skills, hobbies and you can contact me if you want"
+          name="google-site-verification"
+          content="8nTcBswoRFxoinP50GRlDEyNlwRUaIualnQ9Cvzn8bQ"
         />
         <link rel="icon" href="/images/panda.png" />
       </Head>

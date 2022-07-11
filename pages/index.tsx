@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <title>Nicolas Malinarich</title>
         <meta
           name="google-site-verification"
-          content="8nTcBswoRFxoinP50GRlDEyNlwRUaIualnQ9Cvzn8bQ"
+          content="-X15LeB2fDAEe0z0VENgMNIa5-59BEw_qXXj9bzDXIk"
         />
         <link rel="icon" href="/images/panda.png" />
       </Head>

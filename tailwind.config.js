@@ -5,12 +5,17 @@ module.exports = {
   ],
   theme: {
     colors:{
-      customPrimaryColor: "#333333",
-      customSecondaryColor: "#FFFFFF",
-      customThirdColor:"#E1F4F3",
-      customFourthColor:"#706C61",
+      background: "#CAA8F5",
+      customPrimaryColor: "#230C33",
+      customSecondaryColor: "#592E83",
+
+      
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'infiniteStars': "url('/images/endless-constellation.svg')",
+      }
+    },
   },
   plugins: [],
 }

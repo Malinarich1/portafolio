@@ -4,18 +4,18 @@ import Image from "next/image";
 
 export const Navbar = (): JSX.Element => {
   return (
-    <nav className="bg-gradient-to-r from-customPrimaryColor to-customFourthColor sticky top-0 shadow-2xl border-gray-200 px-2 sm:px-4 py-2.5 rounded-b-lg dark:bg-gray-800">
+    <nav className="bg-transparent top-0 border-gray-200 px-2 sm:px-4 py-2.5 rounded-b-lg dark:bg-gray-800">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <div className="flex items-center">
           <div className="mr-2 flex justify-center">
             <Image
-              src="/images/panda.png"
+              src="/images/coding.png"
               width={30}
               height={30}
               alt="Code logo"
             />
           </div>
-          <span className="text-customSecondaryColor self-center text-xl font-semibold whitespace-nowrap">
+          <span className="text-white self-center text-xl font-semibold whitespace-nowrap">
             {pageName}
           </span>
         </div>
@@ -39,7 +39,7 @@ export const Navbar = (): JSX.Element => {
                 >
                   <a
                     href="#"
-                    className="block py-2 px-3 md:p-0 md:border-0 rounded-3xl text-customSecondaryColor hover:text-customThirdColor shadow-inner transition ease-in-out delay-50 hover:-translate-y-0.5"
+                    className="block py-2 px-3 md:p-0 md:border-0 rounded-3xl text-white hover:text-black shadow-inner transition ease-in-out delay-50 hover:-translate-y-0.5"
                   >
                     {name}
                   </a>

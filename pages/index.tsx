@@ -13,6 +13,7 @@ const Home: NextPage = () => {
           name="google-site-verification"
           content="-X15LeB2fDAEe0z0VENgMNIa5-59BEw_qXXj9bzDXIk"
         />
+        <html lang="es" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

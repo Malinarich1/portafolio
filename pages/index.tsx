@@ -38,7 +38,7 @@ const Home: NextPage = () => {
                 "https://www.facebook.com/nicolas.malinarich",
                 "https://www.instagram.com/_malinarich_/",
                 "https://www.linkedin.com/in/nicolas-malinarich/",
-                "wwwhttps://www.nicolasmalinarich.cl/",
+                "https://www.nicolasmalinarich.cl/",
                 "https://github.com/Malinarich1",
               ],
             }),

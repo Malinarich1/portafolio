@@ -11,6 +11,12 @@ const Home: NextPage = () => {
     <div className="bg-infiniteStars bg-fixed">
       <Head>
         <title>Nicolas Malinarich</title>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(personSchema),
+          }}
+        />
         <meta
           name="google-site-verification"
           content="-X15LeB2fDAEe0z0VENgMNIa5-59BEw_qXXj9bzDXIk"
@@ -24,12 +30,6 @@ const Home: NextPage = () => {
       <WorkingOnIt />
       <WorkingOnIt />
       <WorkingOnIt />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(personSchema),
-        }}
-      />
     </div>
   );
 };

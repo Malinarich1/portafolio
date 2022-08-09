@@ -1,6 +1,6 @@
 export const personSchema = {
   "@context": "http://www.schema.org",
-  "@type": "person",
+  "@type": "Person",
   name: "Nicolas Andres Castro Malinarich",
   jobTitle: "Developer",
   url: "https://www.nicolasmalinarich.cl/",

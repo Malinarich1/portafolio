@@ -4,6 +4,7 @@ import { Navbar } from "../components/navbar";
 import { Presentation } from "../components/presentation";
 import { Skills } from "../components/skills";
 import WorkingOnIt from "../components/workingOnIt";
+import { personSchema } from "../schemas/personSchema";
 
 const Home: NextPage = () => {
   return (
@@ -16,36 +17,6 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/images/coding.png" />
         <html lang="es" />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "http://www.schema.org",
-              "@type": "person",
-              name: "Nicolas Andres Castro Malinarich",
-              jobTitle: "Developer",
-              url: "https://www.nicolasmalinarich.cl/",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "avenida manuel antonio matta #0562",
-                addressLocality: "Quilicura",
-                addressRegion: "Region metropolitana",
-                postalCode: "8730286",
-                addressCountry: "Chile",
-              },
-              email: "nicolas.malinarich@hotmail.com",
-              telephone: "+56968300885",
-              birthDate: "1997-05-10",
-              sameAs: [
-                "https://www.facebook.com/nicolas.malinarich",
-                "https://www.instagram.com/_malinarich_/",
-                "https://www.linkedin.com/in/nicolas-malinarich/",
-                "https://www.nicolasmalinarich.cl/",
-                "https://github.com/Malinarich1",
-              ],
-            }),
-          }}
-        />
       </Head>
       <Navbar />
       <Presentation />
@@ -53,6 +24,12 @@ const Home: NextPage = () => {
       <WorkingOnIt />
       <WorkingOnIt />
       <WorkingOnIt />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(personSchema),
+        }}
+      />
     </div>
   );
 };

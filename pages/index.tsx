@@ -22,7 +22,6 @@ const Home: NextPage = () => {
           content="-X15LeB2fDAEe0z0VENgMNIa5-59BEw_qXXj9bzDXIk"
         />
         <link rel="icon" href="/images/coding.png" />
-        <html lang="es" />
       </Head>
       <Navbar />
       <Presentation />

@@ -10,7 +10,7 @@ const Home: NextPage = () => {
   return (
     <div className="bg-infiniteStars bg-fixed">
       <Head>
-        <title>Nicolas Malinarich FullStack Developer</title>
+        <title>Nicolas Malinarich</title>
         <meta
           name="description"
           content="Hello, my name is nicolas malinarich and I am a developer and I am willing to accept all kinds of challenges in order to grow in this industry."

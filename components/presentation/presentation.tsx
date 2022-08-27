@@ -4,7 +4,7 @@ import Image from "next/image";
 export const Presentation = (): JSX.Element => {
   return (
     <>
-      <h1 className="text-6xl font-mono text-center text-white pt-5">¡Hola!</h1>
+      <h1 className="text-6xl font-mono text-center text-white pt-5">¡Hi!</h1>
 
       <div className="flex items-center justify-center pt-5">
         <p className="text-white text-center max-w-3xl font-mono">
